@@ -1,0 +1,18 @@
+
+.places__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .places__heading {
+        max-width: 928px;
+    }
+}
+
+
+
+

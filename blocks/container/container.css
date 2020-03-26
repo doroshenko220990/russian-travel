@@ -1,0 +1,41 @@
+@import url(__image/container__image.css);
+@import url(__quote-author/container__quote-author.css);
+@import url(__quote/container__quote.css);
+@import url(__comment/container__comment.css);
+
+
+.container {
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 925px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 382px;
+        /*flex-direction: column;*/
+        margin: auto;
+        display: grid;
+        grid-gap: 48px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 288px;
+    }
+}

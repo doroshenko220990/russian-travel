@@ -1,0 +1,22 @@
+
+
+.footer__author {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    width: 282px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .footer__author {
+      justify-content: flex-start;
+      margin-top: 48px;
+    }
+}

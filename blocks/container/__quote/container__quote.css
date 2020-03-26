@@ -1,0 +1,15 @@
+
+.container__quote {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 42px;
+}
+
+@media screen and (max-width: 768px) {
+    .container__quote {
+        order: 3;
+    }
+}

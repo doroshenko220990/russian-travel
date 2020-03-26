@@ -1,0 +1,46 @@
+@import url(_bg/video__item_bg-cam.css);
+@import url(_bg/video__item_bg-obs.css);
+
+.video__item {
+display: block;
+width: 583px;
+height: 323px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+position: relative;
+text-decoration: none;
+background-size: cover;
+}
+
+
+.video__item:hover {
+    box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.33) inset;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item {
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item {
+        width: 288px;
+    }
+}

@@ -1,0 +1,24 @@
+.places__item {
+    width: 984px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .places__item {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__item {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .places__item {
+        width: 100%;
+    }
+}
+

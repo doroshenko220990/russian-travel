@@ -1,0 +1,8 @@
+
+.header__langs {
+    width: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+}

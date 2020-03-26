@@ -1,0 +1,26 @@
+
+.places__item-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .places__item-content {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__item-content {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .places__item-content {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,14 @@
+
+.video__item-img {
+    width: 41px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .video__item-img {
+        margin-top: 24px;
+    }
+}
+
+
+

@@ -1,0 +1,41 @@
+@import url(__container/video__container.css);
+@import url(__item/video__item.css);
+@import url(__item-img/video__item-img.css);
+@import url(__item-info/video__item-info.css);
+@import url(__item-duration/video__item-duration.css);
+@import url(__item-title/video__item-title.css);
+@import url(__item-subtitle/video__item-subtitle.css);
+
+
+
+.video {
+    width: 1184px;
+    margin: auto;
+    margin-bottom: 102px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .video {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video {
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video {
+        width: 288px;
+    }
+}

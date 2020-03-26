@@ -1,0 +1,14 @@
+
+.container__quote-author {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .container__quote-author {
+        order: 2;
+    }
+}

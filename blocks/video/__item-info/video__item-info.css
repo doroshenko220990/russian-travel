@@ -1,0 +1,20 @@
+
+.video__item-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    max-width: 322px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .video__item-info {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item-info {
+        margin-left: 16px;
+    }
+}

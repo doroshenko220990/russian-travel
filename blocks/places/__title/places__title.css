@@ -1,0 +1,37 @@
+.places__title {
+    font-size: 72px;
+    line-height: 65.35px;
+    color: #FFFFFF;
+    max-width: 457px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .places__title {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        max-width: 323px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .places__title {
+        max-width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
+        max-width: 288px;
+        padding-left: 16px;
+    }
+}

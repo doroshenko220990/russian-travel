@@ -1,0 +1,45 @@
+
+.cover__link {
+    background-image: url(cover.jpg);
+    display: block;
+    text-decoration: none;
+    margin: 102px auto 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.33) inset;
+    
+}
+
+.cover__link:hover {
+    box-shadow: 0 0 0 522px rgba(0, 0, 0, 0.55) inset;
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__link {
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        max-width: 320px;
+    }
+}

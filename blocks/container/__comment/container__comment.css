@@ -1,0 +1,32 @@
+
+.container__comment {
+    width: 382px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .container__comment {
+        width: 296px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container__comment {
+       align-items: center;
+       width: 382px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container__comment {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__comment {
+        max-width: 288px;
+    }
+}
