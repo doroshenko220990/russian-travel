@@ -8,8 +8,14 @@
     margin-top: 42px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .container__quote {
         order: 3;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container__quote {
+        margin-top: 24px;
     }
 }

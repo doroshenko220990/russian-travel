@@ -3,7 +3,6 @@
 @import url(__link/cover__link.css);
 
 .cover {
-    width: calc(100%-48px * 2);
     margin: 0 auto;
     max-width: 1184px;
 }

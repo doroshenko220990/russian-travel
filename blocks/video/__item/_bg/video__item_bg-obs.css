@@ -1,4 +1,5 @@
 
 .video__item_bg-obs {
     background-image: url(observatory.jpg);
+    margin-top: 8px;
 }

@@ -15,3 +15,6 @@
 @import url(blocks/footer/footer.css);
 
 
+.root {
+    background-color: #2A2C2F;
+}

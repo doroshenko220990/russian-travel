@@ -6,26 +6,26 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .container__comment {
         width: 296px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .container__comment {
        align-items: center;
        width: 382px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .container__comment {
         max-width: 343px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .container__comment {
         max-width: 288px;
     }

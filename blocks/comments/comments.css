@@ -5,25 +5,27 @@
     margin-bottom: 102px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .comments {
         width: 928px
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .comments {
         width: 660px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .comments {
         width: 343px;
+        margin-top: 64px;
+        margin-bottom: 64px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .comments {
         width: 288px;
     }

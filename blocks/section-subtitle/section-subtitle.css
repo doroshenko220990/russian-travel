@@ -12,7 +12,7 @@
     margin-bottom: 72px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .section-subtitle {
         max-width: 343px;
         font-size: 16px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .section-subtitle {
         max-width: 288px;
         font-size: 16px;

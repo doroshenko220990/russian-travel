@@ -7,13 +7,13 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .video__item-info {
         margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .video__item-info {
         margin-left: 16px;
     }

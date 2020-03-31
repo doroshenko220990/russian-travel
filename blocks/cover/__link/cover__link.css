@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.33) inset;
+    max-height: 594px;
     
 }
 
@@ -20,25 +21,26 @@
    
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__link {
         max-width: 1024px;
+        max-height: 562px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__link {
         max-width: 768px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .cover__link {
         max-width: 375px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .cover__link {
         max-width: 320px;
     }

@@ -13,20 +13,21 @@
     margin-bottom: 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__subtitle {
         max-width: 413px;
+        margin-top: 70px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__subtitle {
         margin-bottom: 40px;
         margin-top: 45px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 17px;
@@ -36,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .cover__subtitle {
         max-width: 288px;
         
