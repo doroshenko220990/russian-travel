@@ -23,15 +23,15 @@
 
 @media screen and (max-width: 767px) {
     .places__title {
-        max-width: 343px;
+        min-width: 343px;
         font-size: 32px;
         line-height: 35px;
+        margin: auto;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
     .places__title {
-        max-width: 288px;
-        padding-left: 16px;
+        min-width: 288px;
     }
 }

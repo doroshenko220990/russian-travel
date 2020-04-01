@@ -16,7 +16,7 @@ background-size: cover;
 
 
 .video__item:hover {
-    box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.33) inset;
+    box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.55) inset;
 }
 
 @media screen and (max-width: 1279px) {
@@ -39,7 +39,7 @@ background-size: cover;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
     .video__item {
         width: 288px;
     }

@@ -13,7 +13,6 @@
     align-items: center;
     box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.33) inset;
     max-height: 594px;
-    
 }
 
 .cover__link:hover {
@@ -40,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
     .cover__link {
         max-width: 320px;
     }

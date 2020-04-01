@@ -20,6 +20,8 @@
 @media screen and (max-width: 767px) {
     .places__website {
         display: none;
+       margin: 0;
+       padding: 0;
     }
 }
 

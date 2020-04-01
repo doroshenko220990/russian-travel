@@ -22,3 +22,9 @@
     }
 }
 
+@media screen and (max-width: 374px) {
+    .places__item {
+        max-width: 320px;
+    }
+}
+

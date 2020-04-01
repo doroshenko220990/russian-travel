@@ -13,8 +13,5 @@
 @import url(blocks/container/container.css);
 @import url(blocks/cover/cover.css);
 @import url(blocks/footer/footer.css);
+@import url(fonts/Inter/inter.css);
 
-
-.root {
-    background-color: #2A2C2F;
-}
