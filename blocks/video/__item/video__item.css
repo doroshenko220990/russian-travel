@@ -12,11 +12,12 @@ justify-content: space-around;
 position: relative;
 text-decoration: none;
 background-size: cover;
+box-shadow: 0 0 0 162px rgba(0, 0, 0, 0.5) inset;
 }
 
 
 .video__item:hover {
-    box-shadow: 0 0 0 522px  rgba(0, 0, 0, 0.55) inset;
+    box-shadow: 0 0 0 162px  rgba(0, 0, 0, 0.7) inset;
 }
 
 @media screen and (max-width: 1279px) {

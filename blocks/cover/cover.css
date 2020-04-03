@@ -5,12 +5,34 @@
 .cover {
     margin: 0 auto;
     max-width: 1184px;
+    margin-top: 102px;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        width: 100%;
+        width: 1024px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .cover {
+        width: 375px;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover {
+        width: 320px;
+    }
+}
+
 

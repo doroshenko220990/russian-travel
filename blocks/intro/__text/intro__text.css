@@ -8,7 +8,7 @@
     padding-left: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
     .intro__text {
         font-size: 12px;
         line-height: 19px;

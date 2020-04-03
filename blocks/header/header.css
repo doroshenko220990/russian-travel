@@ -1,7 +1,7 @@
 @import url(__logo/header__logo.css);
 @import url(__lang/header__lang.css);
 @import url(__langs/header__langs.css);
-@import url(__lang/_dec_underline/header__lang_dec_underline.css);
+@import url(__lang/_dec_active/header__lang_dec_active.css);
 
 .header {
     width: 1184px;

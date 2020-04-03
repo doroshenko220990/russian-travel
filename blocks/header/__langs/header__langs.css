@@ -6,3 +6,9 @@
     justify-content: space-between;
     margin-top: 17px;
 }
+
+@media screen and (max-width: 767px) {
+    .header__langs {
+        width: 68px;
+    }
+}

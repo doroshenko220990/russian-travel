@@ -1,5 +1,10 @@
 
 .video__item_bg-obs {
     background-image: url(observatory.jpg);
-    margin-top: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .video__item_bg-obs {
+        margin-top: 8px;
+    }
 }

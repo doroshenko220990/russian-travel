@@ -9,7 +9,12 @@
     width: 640px;
     margin: auto;
     margin-top: 48px;
-    margin-bottom: 72px;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-subtitle {
+        margin-top: 24px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -17,6 +22,7 @@
         max-width: 343px;
         font-size: 16px;
         line-height: 23px;
+        margin-top: 16px;
     }
 }
 

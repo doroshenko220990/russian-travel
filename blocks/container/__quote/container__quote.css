@@ -6,16 +6,20 @@
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 42px;
+    margin-left: 0;
 }
 
 @media screen and (max-width: 1023px) {
     .container__quote {
         order: 3;
+        margin: auto;
+        max-width: 382px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .container__quote {
-        margin-top: 24px;
+        margin-top: 10px;
+        max-width: 343px;
     }
 }

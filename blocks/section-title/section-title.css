@@ -1,4 +1,4 @@
-/*@import url(_place/section-title_place_comments.css);*/
+@import url(_place/section-title_place_comments.css);
 
 .section-title {
     font-style: normal;
@@ -26,8 +26,7 @@
         font-size: 42px;
         line-height: 46px;
     }
-
-    .section-title_place_comments { /*Создавал папку с модификатором и подключал в этот файл, но почему то свойства из файла модификатора не работали, в чем причина?*/
+    .section-title_place_comments { 
         max-width: 660px;
     }
 }
@@ -47,6 +46,3 @@
         max-width: 288px;
     }
 }
-
-
-@import url(_place/section-title_place_comments.css);

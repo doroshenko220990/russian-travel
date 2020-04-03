@@ -4,6 +4,7 @@
     color: #FFFFFF;
     max-width: 457px;
     margin: 0;
+    font-weight: 900;
 }
 
 
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
     .places__title {
-        max-width: 323px;
+        max-width: 340px;
         font-size: 42px;
         line-height: 46px;
     }

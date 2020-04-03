@@ -8,7 +8,7 @@
     color: #FFFFFF;
     margin-right: 18px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 0px;
 }
 

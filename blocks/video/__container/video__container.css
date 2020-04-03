@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-repeat: no-repeat;
+    margin-top: 72px;
 }
 
 
@@ -18,6 +19,7 @@
 @media screen and (max-width: 1023px) {
     .video__container {
         max-width: 720px;
+        margin-top: 56px;
     }
 }
 
@@ -26,6 +28,7 @@
     .video__container {
         max-width: 343px;
         flex-direction: column;
+        margin-top: 24px;
     }
 }
 
