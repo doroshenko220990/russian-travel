@@ -3,21 +3,27 @@
 @import url(__link/cover__link.css);
 
 .cover {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1184px;
     margin-top: 102px;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 594px;
 }
 
 
 @media screen and (max-width: 1279px) {
     .cover {
+        height: 562px;
         width: 1024px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        width: 768px;
+       width: 768px;
+       height: 500px;
     }
 }
 
@@ -26,12 +32,14 @@
     .cover {
         width: 375px;
         margin-top: 48px;
+        height: 272px;
     }
 }
 
 @media screen and (max-width: 374px) {
     .cover {
         width: 320px;
+        height: 216px;
     }
 }
 
