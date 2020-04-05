@@ -4,6 +4,7 @@
 
 
 .footer {
+    margin: auto;
     display: flex;
     flex-direction: row;
     width: 1184px;
