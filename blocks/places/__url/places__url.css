@@ -7,6 +7,7 @@
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
+    width: fit-content;
 }
 
 .places__url:hover {

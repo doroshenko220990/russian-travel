@@ -21,5 +21,11 @@
     }
 }
 
+@media screen and (max-width: 374px) {
+    .places__heading {
+        max-width: 288px;
+    }
+}
+
 
 
