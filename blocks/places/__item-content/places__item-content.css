@@ -21,7 +21,7 @@
 @media screen and (max-width: 767px) {
     .places__item-content {
         flex-direction: column;
-        max-width: 375px;
+        width: 100%;
         margin-top: 32px;
     }
 }

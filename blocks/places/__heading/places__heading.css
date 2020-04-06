@@ -14,5 +14,12 @@
 }
 
 
+@media screen and (max-width: 767px) {
+    .places__heading {
+        max-width: 343px;
+        margin: auto;
+    }
+}
+
 
 

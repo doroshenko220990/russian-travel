@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 767px) {
     .places__item {
+        width: 100%;
         max-width: 375px;
     }
 }
